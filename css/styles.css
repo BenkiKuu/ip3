@@ -1,6 +1,7 @@
 .jumbotron{
   text-align: center;
 background-image: url(../img/jumBack.jpg);
+margin: 0px;
 }
 #pingResult{
   text-align: center;
@@ -10,6 +11,7 @@ color: #FF0000;
 text-align: center;
 }
 .container-fluid{
+  height: 800px;
   background-image: url(../gif/header.gif);
   background-repeat: no-repeat;
   background-size: cover;
