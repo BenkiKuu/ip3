@@ -26,13 +26,13 @@ $(document).ready(function() {
 function startGame(){
 for(var index=1;index<=number;index++){
   if((index % 3==0) && (index % 5==0)){
-   $("#result").append('pingpong </br>');
+   $("#result").append('PingPong </br>');
   }
   else if(index % 5==0){
-   $("#result").append('pong </br>');
+   $("#result").append('Pong </br>');
   }
    else if(index % 3==0){
-   $("#result").append('ping </br>');
+   $("#result").append('Ping </br>');
   }
   else{
      $("#result").append(index.toString() + '</br>');
