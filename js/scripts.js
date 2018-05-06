@@ -1,14 +1,17 @@
-var str="";
+
 var number;
 //UI logic
 $(document).ready(function() {
   $("form#pingResult").submit(function(event) {
+    $('#result').text("");
     event.preventDefault();
     number = parseInt($("input#number").val());
     startGame();
 
-    $('#result').text(str);
-      str='';
+    $('#result').show();
+    $('input#number').val('');
+
+
 
     event.preventDefault();
   });
@@ -23,19 +26,18 @@ $(document).ready(function() {
 function startGame(){
 for(var index=1;index<=number;index++){
   if((index % 3==0) && (index % 5==0)){
-   str+='pingpong';
+   $("#result").append('pingpong </br>');
   }
   else if(index % 5==0){
-   str+='pong';
+   $("#result").append('pong </br>');
   }
    else if(index % 3==0){
-   str+='ping';
+   $("#result").append('ping </br>');
   }
   else{
-     str+=index.toString();
+     $("#result").append(index.toString() + '</br>');
   }
-  if(index!=number){
-   str+=',';
-  }
+
+
 }
 }
