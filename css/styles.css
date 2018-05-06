@@ -15,5 +15,8 @@ text-align: center;
   background-size: cover;
 }
 #creatorInfo{
-  color: #0000FF
+  color: #0000FF;
+}
+#gameRules{
+  color: #000080;
 }
