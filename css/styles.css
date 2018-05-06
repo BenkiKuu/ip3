@@ -1,5 +1,6 @@
 .jumbotron{
   text-align: center;
+  background-image: url(../gif/header.gif);
 }
 #pingResult{
   text-align: center;
