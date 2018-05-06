@@ -1,6 +1,6 @@
 .jumbotron{
   text-align: center;
-
+background-image: url(../img/jumboBack.jpeg);
 }
 #pingResult{
   text-align: center;
