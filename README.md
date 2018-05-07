@@ -20,11 +20,13 @@ The site is part of class work as I learn how to develop websites, it was part o
 * Example Input: [15]
 * Example Output: [1,2,Ping,4,Pong,Ping,7,8,9,Pong,11,12,13,14PingPong]
 ## Setup/Installation Requirements
-* No Set up Requred
-* See a simple one page website
-* in a simple easy-to-understand format just click the link above.
+* Create a directory
+* Initialize git using the git init comand
+* Then the git clone https://github.com/BenkiKuu/ip3.git comand.
+* Then go to the directory.
+* Open in Atom.
 ## Known Bugs
-* Depending on the Processing power of your laptop, very large numbers may make your machine hang. 
+* Depending on the Processing power of your laptop, very large numbers may make your machine hang.
 
 
 ## Technologies Used
