@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
 
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-    <title>PING PONG</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>PING PONG</title>
+</head>
 
-      <div class="jumbotron">
-      <h1>PING-PONG</h1>
-    </div>
-    <div class="container-fluid">
-<div class="row">
-  <div class="col-md-3" id="creatorInfo">
-    <h2>About Ping Pong</h2>
-    <h3>Created By:</h3>
-    <p>Leo Igane</p>
-    <h3>GitHub User Name:</h3>
-    <p>BenkiKuu</p>
-    <h3>Indipendent Project Week:</h3>
-    <p>Week 3</p>
+<body>
+  <div class="jumbotron">
+    <h1>PING-PONG</h1>
   </div>
-  <div class="col-md-5">
-      <form class="row" id="pingResult">
-        <div class="form-group">
-          <label for="number">Enter Your Number Here</label>
-          <input id="number" type="number">
-
-
-        <button type="submit" class="btn">LETS PLAY!</button>
-        </div>
-      </form>
-      <div id="result">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3" id="creatorInfo">
+        <h2>About Ping Pong</h2>
+        <h3>Created By:</h3>
+        <p>Leo Igane</p>
+        <h3>GitHub User Name:</h3>
+        <p>BenkiKuu</p>
+        <h3>Indipendent Project Week:</h3>
+        <p>Week 3</p>
       </div>
-    </div>
-    <div class="col-md-4" id="gameRules">
-      <h3>Rules</h3>
-      <h4>Ping Pong will count up to your number, with the following exceptions:</h4>
-      <ol>
-        <li>Numbers divisible by 3 become ping</li>
-        <li>Numbers divisible by 5 become Pong</li>
-        <li>Numbers divisible by 3 and 5 become PingPong</li>
-      </ol>
-    </div>
-
-
-
+      <div class="col-md-5">
+        <form class="row" id="pingResult">
+          <div class="form-group">
+            <label for="number">Enter Your Number Here</label>
+            <input id="number" type="number">
+            <button type="submit" class="btn">LETS PLAY!</button>
+          </div>
+        </form>
+        <div id="result">
         </div>
       </div>
-  </body>
+      <div class="col-md-4" id="gameRules">
+        <h3>Rules</h3>
+        <h4>Ping Pong will count up to your number, with the following exceptions:</h4>
+        <ol>
+          <li>Numbers divisible by 3 become ping</li>
+          <li>Numbers divisible by 5 become Pong</li>
+          <li>Numbers divisible by 3 and 5 become PingPong</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
